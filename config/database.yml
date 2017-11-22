@@ -1,3 +1,4 @@
+
 # PostgreSQL. Versions 8.2 and up are supported.
 #
 # Install the pg driver:
@@ -82,4 +83,4 @@ production:
   <<: *default
   database: personal_production
   username: personal
-  password: <%= ENV['PERSONAL_DATABASE_PASSWORD'] %>
+password: <%= ENV['PERSONAL_DATABASE_PASSWORD'] %>
