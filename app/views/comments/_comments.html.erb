@@ -1,0 +1,10 @@
+<ul class="comments">
+	<% @comments.each do |f| %>
+	<li class="comments">
+		<%= f.content %>
+		<div class="created pull-right">
+			<%= f.created_at.strftime('%A %b-%d-%Y %H:%M') %>
+		</div>
+		</li>
+	<% end %>
+</ul>

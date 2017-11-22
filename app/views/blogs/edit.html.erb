@@ -1,0 +1,10 @@
+<div class="title">
+  <body background="/assets/bg8.jpg">
+	<%= form_for @blog do |f| %>
+	  <%= f.label :title%>
+	  <%= f.text_field :title %><br>
+	  <%= f.label :body %>
+	  <%= f.text_area :body %><br>
+	  <%= f.submit 'Update', :class => "btn btn-primary" %>
+	<% end %>
+</div>
